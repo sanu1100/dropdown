@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient( to right bottom, orange,white,green);
+    height: 100vh;
+}
+nav{
+    background-color: grey;
+}
+#cont{
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+a:hover{
+    background-color: rgb(107, 107, 228);
+}
+#menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;  
+    background-color: cadetblue;
+    position: absolute;
+    display: none;
+}
+#drop:hover #menu{
+    display:block ;
+}
+#img1{
+    position: sticky;
+    top: 500px;
+    left: 500px;
+    size: 0px;
+}
